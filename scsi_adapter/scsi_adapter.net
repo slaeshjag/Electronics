@@ -1,0 +1,132 @@
+# EESchema Netlist Version 1.1 created  Fri 18 Apr 2014 11:18:56 PM CEST
+(
+ ( /535180F8 C1V5 C1 CP1
+  ( 1 VDD )
+  ( 2 GND )
+ )
+ ( /53517E38 D5 D1 DIODE
+  ( 1 N-000003 )
+  ( 2 /TERM_POWER )
+ )
+ ( /53517E08 SM1206 F1 FUSE_1A_slow
+  ( 1 N-000003 )
+  ( 2 VDD )
+ )
+ ( /5351806E PIN_ARRAY_4x1 P1 CONN_4
+  ( 1 ? )
+  ( 2 ? )
+  ( 3 GND )
+  ( 4 VDD )
+ )
+ ( /53519512 PIN_ARRAY_2X1 P2 CONN_2
+  ( 1 GND )
+  ( 2 N-000027 )
+ )
+ ( /535194DF TO92DGS Q1 MOS_N
+  ( D GND )
+  ( G N-000024 )
+  ( S N-000027 )
+ )
+ ( /53519551 R3 R1 R
+  ( 1 N-000027 )
+  ( 2 VDD )
+ )
+ ( /53517D7E PIN_ARRAY_25X2 SCSI1 SCSI50
+  ( 1 GND )
+  ( 2 N-000026 )
+  ( 3 GND )
+  ( 4 N-000007 )
+  ( 5 GND )
+  ( 6 N-000008 )
+  ( 7 GND )
+  ( 8 N-000009 )
+  ( 9 GND )
+  ( 10 N-000018 )
+  ( 11 GND )
+  ( 12 N-000015 )
+  ( 13 GND )
+  ( 14 N-000016 )
+  ( 15 GND )
+  ( 16 N-000017 )
+  ( 17 GND )
+  ( 18 N-000014 )
+  ( 19 GND )
+  ( 20 GND )
+  ( 21 GND )
+  ( 22 GND )
+  ( 23 GND )
+  ( 24 GND )
+  ( 25 ? )
+  ( 26 ? )
+  ( 27 GND )
+  ( 28 GND )
+  ( 29 GND )
+  ( 30 GND )
+  ( 31 GND )
+  ( 32 N-000022 )
+  ( 33 GND )
+  ( 34 GND )
+  ( 35 GND )
+  ( 36 N-000024 )
+  ( 37 GND )
+  ( 38 N-000013 )
+  ( 39 GND )
+  ( 40 N-000012 )
+  ( 41 GND )
+  ( 42 N-000023 )
+  ( 43 GND )
+  ( 44 N-000020 )
+  ( 45 GND )
+  ( 46 N-000025 )
+  ( 47 GND )
+  ( 48 N-000011 )
+  ( 49 GND )
+  ( 50 N-000021 )
+ )
+ ( /53517947 DB25F_CI SCSI2 SCSI25
+  ( 1 N-000011 )
+  ( 2 N-000023 )
+  ( 3 N-000021 )
+  ( 4 N-000012 )
+  ( 5 N-000013 )
+  ( 6 N-000024 )
+  ( 7 GND )
+  ( 8 N-000026 )
+  ( 9 GND )
+  ( 10 N-000009 )
+  ( 11 N-000015 )
+  ( 12 N-000016 )
+  ( 13 N-000017 )
+  ( 14 GND )
+  ( 15 N-000025 )
+  ( 16 GND )
+  ( 17 N-000022 )
+  ( 18 GND )
+  ( 19 N-000020 )
+  ( 20 N-000014 )
+  ( 21 N-000007 )
+  ( 22 N-000008 )
+  ( 23 N-000018 )
+  ( 24 GND )
+  ( 25 /TERM_POWER )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ CP*
+ SM*
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

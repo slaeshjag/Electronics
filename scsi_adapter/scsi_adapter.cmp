@@ -1,0 +1,66 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Fri 18 Apr 2014 11:18:56 PM CEST
+
+BeginCmp
+TimeStamp = /535180F8;
+Reference = C1;
+ValeurCmp = CP1;
+IdModule  = C1V5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53517E38;
+Reference = D1;
+ValeurCmp = DIODE;
+IdModule  = D5;
+EndCmp
+
+BeginCmp
+TimeStamp = /53517E08;
+Reference = F1;
+ValeurCmp = FUSE_1A_slow;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /5351806E;
+Reference = P1;
+ValeurCmp = CONN_4;
+IdModule  = PIN_ARRAY_4x1;
+EndCmp
+
+BeginCmp
+TimeStamp = /53519512;
+Reference = P2;
+ValeurCmp = CONN_2;
+IdModule  = PIN_ARRAY_2X1;
+EndCmp
+
+BeginCmp
+TimeStamp = /535194DF;
+Reference = Q1;
+ValeurCmp = MOS_N;
+IdModule  = TO92DGS;
+EndCmp
+
+BeginCmp
+TimeStamp = /53519551;
+Reference = R1;
+ValeurCmp = R;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /53517D7E;
+Reference = SCSI1;
+ValeurCmp = SCSI50;
+IdModule  = PIN_ARRAY_25X2;
+EndCmp
+
+BeginCmp
+TimeStamp = /53517947;
+Reference = SCSI2;
+ValeurCmp = SCSI25;
+IdModule  = DB25F_CI;
+EndCmp
+
+EndListe

@@ -1,0 +1,221 @@
+# EESchema Netlist Version 1.1 created  Sat 19 Apr 2014 05:49:59 PM CEST
+(
+ ( /53528566 SM0805 C1 0.22_µF
+  ( 1 /INPUT_L )
+  ( 2 N-000009 )
+ )
+ ( /53528570 SM0805 C2 0.22_µF
+  ( 1 /INPUT_R )
+  ( 2 N-000010 )
+ )
+ ( /535289ED C1V7 C3 47_µF
+  ( 1 N-000005 )
+  ( 2 N-000002 )
+ )
+ ( /53528A2F C1V7 C4 47_µF
+  ( 1 N-000016 )
+  ( 2 N-000001 )
+ )
+ ( /535288A2 SM0805 C5 0.22_µF
+  ( 1 N-000005 )
+  ( 2 /OUT_L )
+ )
+ ( /535288B6 SM0805 C6 0.22_µF
+  ( 1 N-000016 )
+  ( 2 /OUT_R )
+ )
+ ( /53528BCB C2V10 C7 CP1
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( /53528BD4 C2V10 C8 CP1
+  ( 1 GND )
+  ( 2 -12V )
+ )
+ ( /53529627 C2V10 C9 CP1
+  ( 1 +12V )
+  ( 2 GND )
+ )
+ ( /53529631 C2V10 C10 CP1
+  ( 1 GND )
+  ( 2 -12V )
+ )
+ ( /53529AC1 SM1206 C11 C
+  ( 1 +12V )
+  ( 2 -12V )
+ )
+ ( /53529AC5 SM1206 C12 C
+  ( 1 +12V )
+  ( 2 -12V )
+ )
+ ( /535289BE D3 D1 DIODE
+  ( 1 N-000005 )
+  ( 2 N-000002 )
+ )
+ ( /53528A22 D3 D2 DIODE
+  ( 1 N-000016 )
+  ( 2 N-000001 )
+ )
+ ( /535284D0 PIN_ARRAY_3X1 K1 CONN_3
+  ( 1 /INPUT_L )
+  ( 2 GND )
+  ( 3 /INPUT_R )
+ )
+ ( /53528673 pin_array_3x2 P1 CONN_3X2
+  ( 1 N-000014 )
+  ( 2 N-000008 )
+  ( 3 N-000013 )
+  ( 4 N-000006 )
+  ( 5 /OUT_R )
+  ( 6 /OUT_L )
+ )
+ ( /53528AAE 1pin P2 CONN_1
+  ( 1 GND )
+ )
+ ( /53528AA7 1pin P3 CONN_1
+  ( 1 /OUT_L )
+ )
+ ( /53528A98 1pin P4 CONN_1
+  ( 1 /OUT_R )
+ )
+ ( /53528A90 1pin P5 CONN_1
+  ( 1 GND )
+ )
+ ( /53528B44 1pin P6 CONN_1
+  ( 1 +12V )
+ )
+ ( /53528B3F 1pin P7 CONN_1
+  ( 1 GND )
+ )
+ ( /53528B4A 1pin P8 CONN_1
+  ( 1 -12V )
+ )
+ ( /53528821 TO220_VERT Q1 TIP41
+  ( 1 /OUT_L )
+  ( 2 N-000005 )
+  ( 3 +12V )
+ )
+ ( /53528937 TO220_VERT Q2 TIP42
+  ( 1 /OUT_L )
+  ( 2 N-000002 )
+  ( 3 -12V )
+ )
+ ( /5352885D TO220_VERT Q3 TIP41
+  ( 1 /OUT_R )
+  ( 2 N-000016 )
+  ( 3 +12V )
+ )
+ ( /53528995 TO220_VERT Q4 TIP42
+  ( 1 /OUT_R )
+  ( 2 N-000001 )
+  ( 3 -12V )
+ )
+ ( /5352859F SM1206 R1 1_MΩ
+  ( 1 N-000009 )
+  ( 2 GND )
+ )
+ ( /535285C7 SM1206 R2 1_MΩ
+  ( 1 GND )
+  ( 2 N-000010 )
+ )
+ ( /53528644 SO8N U1 TL082
+  ( 1 N-000008 )
+  ( 2 N-000008 )
+  ( 3 N-000009 )
+  ( 4 -12V )
+  ( 5 N-000010 )
+  ( 6 N-000014 )
+  ( 7 N-000014 )
+  ( 8 +12V )
+ )
+ ( /53528741 SO8N U2 TL082
+  ( 1 N-000005 )
+  ( 2 N-000006 )
+  ( 3 GND )
+  ( 4 -12V )
+  ( 5 GND )
+  ( 6 N-000013 )
+  ( 7 N-000016 )
+  ( 8 +12V )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C1
+ SM*
+ C?
+ C1-1
+$endlist
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C3
+ CP*
+ SM*
+$endlist
+$component C4
+ CP*
+ SM*
+$endlist
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ CP*
+ SM*
+$endlist
+$component C8
+ CP*
+ SM*
+$endlist
+$component C9
+ CP*
+ SM*
+$endlist
+$component C10
+ CP*
+ SM*
+$endlist
+$component C11
+ SM*
+ C?
+ C1-1
+$endlist
+$component C12
+ SM*
+ C?
+ C1-1
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$component D2
+ D?
+ S*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R2
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}

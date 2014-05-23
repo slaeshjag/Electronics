@@ -1,0 +1,342 @@
+# EESchema Netlist Version 1.1 created  Fri 23 May 2014 10:36:21 PM CEST
+(
+ ( /537FACF5 $noname  D2 5.1_V {Lib=ZENER}
+  (    1 N-000072 )
+  (    2 N-000094 )
+ )
+ ( /537FACE5 $noname  R1 10_kΩ {Lib=R}
+  (    1 N-000094 )
+  (    2 N-000071 )
+ )
+ ( /537FACD6 $noname  D1 1N4148 {Lib=DIODE}
+  (    1 N-000093 )
+  (    2 N-000071 )
+ )
+ ( /537FA8A4 $noname  P1 CONN_8 {Lib=CONN_8}
+  (    1 /SPI_SSEL1 )
+  (    2 /SPI_MISO )
+  (    3 /SPI_MOSI )
+  (    4 /SPI_CLK )
+  (    5 GND )
+  (    6 VCC )
+  (    7 N-000093 )
+  (    8 N-000072 )
+ )
+ ( /537FA36C $noname  U5 74LS374 {Lib=74LS374}
+  (    1 GND )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 /D2 )
+  (    7 ? )
+  (    8 /SPI_MISO )
+  (    9 /D3 )
+  (   10 GND )
+  (   11 /IN_ENABLE )
+  (   12 /D4 )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 ? )
+  (   19 ? )
+  (   20 VCC )
+ )
+ ( /537FA235 $noname  U6 74LS374 {Lib=74LS374}
+  (    1 /OUT_ENABLE )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 /SPI_SSEL1 )
+  (    7 /D2 )
+  (    8 /D3 )
+  (    9 /SPI_MOSI )
+  (   10 GND )
+  (   11 /OUT_ENABLE )
+  (   12 /SPI_CLK )
+  (   13 /D4 )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 ? )
+  (   19 ? )
+  (   20 VCC )
+ )
+ ( /537F4B9E $noname  U2 74LS154 {Lib=74LS154}
+  (    1 ? )
+  (    2 /LCD_ENABLE )
+  (    3 ? )
+  (    4 /OUT_ENABLE )
+  (    5 /IN_ENABLE )
+  (    6 ? )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 GND )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 /ROM_ENABLE )
+  (   18 GND )
+  (   19 GND )
+  (   20 /A15 )
+  (   21 /A14 )
+  (   22 /A13 )
+  (   23 /A12 )
+  (   24 VCC )
+ )
+ ( /537F4975 $noname  U3 2716 {Lib=2716}
+  (    1 /A7 )
+  (    2 /A6 )
+  (    3 /A5 )
+  (    4 /A4 )
+  (    5 /A3 )
+  (    6 /A2 )
+  (    7 /A1 )
+  (    8 /A0 )
+  (    9 /D0 )
+  (   10 /D1 )
+  (   11 /D2 )
+  (   12 GND )
+  (   13 /D3 )
+  (   14 /D4 )
+  (   15 /D5 )
+  (   16 /D6 )
+  (   17 /D7 )
+  (   18 /ROM_ENABLE )
+  (   19 /A10 )
+  (   20 /ROM_ENABLE )
+  (   21 ? )
+  (   22 /A9 )
+  (   23 /A8 )
+  (   24 VCC )
+ )
+ ( /537F486E $noname  U4 M6809P {Lib=M6809P}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 ? )
+  (    7 ? )
+  (    8 /A0 )
+  (    9 /A1 )
+  (   10 /A2 )
+  (   11 /A3 )
+  (   12 /A4 )
+  (   13 /A5 )
+  (   14 /A6 )
+  (   15 /A7 )
+  (   16 /A8 )
+  (   17 /A9 )
+  (   18 /A10 )
+  (   19 ? )
+  (   20 /A12 )
+  (   21 /A13 )
+  (   22 /A14 )
+  (   23 /A15 )
+  (   24 /D7 )
+  (   25 /D6 )
+  (   26 /D5 )
+  (   27 /D4 )
+  (   28 /D3 )
+  (   29 /D2 )
+  (   30 /D1 )
+  (   31 /D0 )
+  (   32 ? )
+  (   33 ? )
+  (   34 ? )
+  (   35 ? )
+  (   36 ? )
+  (   37 ? )
+  (   38 ? )
+  (   39 ? )
+  (   40 ? )
+ )
+ ( /537F47FB $noname  U1 HD44780 {Lib=HD44780}
+  (    1 ? )
+  (    2 ? )
+  (    3 ? )
+  (    4 /A0 )
+  (    5 GND )
+  (    6 /LCD_ENABLE )
+  (    7 /D0 )
+  (    8 /D1 )
+  (    9 /D2 )
+  (   10 /D3 )
+  (   11 /D4 )
+  (   12 /D5 )
+  (   13 /D6 )
+  (   14 /D7 )
+  (   15 ? )
+  (   16 ? )
+ )
+)
+*
+{ Allowed footprints by component:
+$component D2
+ D?
+ SO*
+ SM*
+$endlist
+$component R1
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D1
+ D?
+ S*
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 11 "VCC" "VCC"
+ P1 6
+ U5 20
+ U3 24
+ U2 24
+ U6 20
+Net 12 "GND" "GND"
+ U6 10
+ P1 5
+ U3 12
+ U2 12
+ U5 10
+ U5 1
+ U1 5
+ U2 19
+ U2 18
+Net 13 "/A12" "A12"
+ U4 20
+ U2 23
+Net 14 "/A13" "A13"
+ U4 21
+ U2 22
+Net 15 "/A14" "A14"
+ U2 21
+ U4 22
+Net 16 "/A15" "A15"
+ U2 20
+ U4 23
+Net 18 "/ROM_ENABLE" "ROM_ENABLE"
+ U3 18
+ U3 20
+ U2 17
+Net 20 "/OUT_ENABLE" "OUT_ENABLE"
+ U2 4
+ U6 11
+ U6 1
+Net 27 "/D0" "D0"
+ U1 7
+ U3 9
+ U4 31
+Net 28 "/D1" "D1"
+ U3 10
+ U4 30
+ U1 8
+Net 29 "/D2" "D2"
+ U6 7
+ U5 6
+ U3 11
+ U1 9
+ U4 29
+Net 30 "/D3" "D3"
+ U3 13
+ U5 9
+ U6 8
+ U1 10
+ U4 28
+Net 31 "/D4" "D4"
+ U1 11
+ U4 27
+ U3 14
+ U6 13
+ U5 12
+Net 32 "/D5" "D5"
+ U3 15
+ U4 26
+ U1 12
+Net 33 "/D6" "D6"
+ U1 13
+ U4 25
+ U3 16
+Net 34 "/D7" "D7"
+ U1 14
+ U3 17
+ U4 24
+Net 36 "/A8" "A8"
+ U3 23
+ U4 16
+Net 38 "/A7" "A7"
+ U3 1
+ U4 15
+Net 40 "/A6" "A6"
+ U3 2
+ U4 14
+Net 42 "/A5" "A5"
+ U3 3
+ U4 13
+Net 43 "/A4" "A4"
+ U4 12
+ U3 4
+Net 53 "/LCD_ENABLE" "LCD_ENABLE"
+ U2 2
+ U1 6
+Net 60 "/A10" "A10"
+ U4 18
+ U3 19
+Net 63 "/A0" "A0"
+ U1 4
+ U4 8
+ U3 8
+Net 64 "/A1" "A1"
+ U4 9
+ U3 7
+Net 65 "/A2" "A2"
+ U4 10
+ U3 6
+Net 66 "/A3" "A3"
+ U4 11
+ U3 5
+Net 69 "/A9" "A9"
+ U4 17
+ U3 22
+Net 70 "/SPI_SSEL1" "SPI_SSEL1"
+ P1 1
+ U6 6
+Net 71 "" ""
+ D1 2
+ R1 2
+Net 72 "" ""
+ D2 1
+ P1 8
+Net 74 "/SPI_CLK" "SPI_CLK"
+ U6 12
+ P1 4
+Net 75 "/SPI_MOSI" "SPI_MOSI"
+ P1 3
+ U6 9
+Net 87 "/IN_ENABLE" "IN_ENABLE"
+ U2 5
+ U5 11
+Net 92 "/SPI_MISO" "SPI_MISO"
+ P1 2
+ U5 8
+Net 93 "" ""
+ D1 1
+ P1 7
+Net 94 "" ""
+ R1 1
+ D2 2
+}
+#End

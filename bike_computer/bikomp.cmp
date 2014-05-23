@@ -1,0 +1,73 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Fri 23 May 2014 10:20:05 PM CEST
+
+BeginCmp
+TimeStamp = /537FACD6;
+Reference = D1;
+ValeurCmp = 1N4148;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /537FACF5;
+Reference = D2;
+ValeurCmp = 5.1_V;
+IdModule  = D3;
+EndCmp
+
+BeginCmp
+TimeStamp = /537FA8A4;
+Reference = P1;
+ValeurCmp = CONN_8;
+IdModule  = SIL-8;
+EndCmp
+
+BeginCmp
+TimeStamp = /537FACE5;
+Reference = R1;
+ValeurCmp = 10_kΩ;
+IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /537F47FB;
+Reference = U1;
+ValeurCmp = HD44780;
+IdModule  = pin_array_8x2;
+EndCmp
+
+BeginCmp
+TimeStamp = /537F4B9E;
+Reference = U2;
+ValeurCmp = 74LS154;
+IdModule  = DIP-24__600;
+EndCmp
+
+BeginCmp
+TimeStamp = /537F4975;
+Reference = U3;
+ValeurCmp = 2716;
+IdModule  = DIP-24__600;
+EndCmp
+
+BeginCmp
+TimeStamp = /537F486E;
+Reference = U4;
+ValeurCmp = M6809P;
+IdModule  = DIP-40__600;
+EndCmp
+
+BeginCmp
+TimeStamp = /537FA36C;
+Reference = U5;
+ValeurCmp = 74LS374;
+IdModule  = DIP-20__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /537FA235;
+Reference = U6;
+ValeurCmp = 74LS374;
+IdModule  = DIP-20__300;
+EndCmp
+
+EndListe

@@ -1,4 +1,4 @@
-update=Fri 23 May 2014 12:15:06 PM CEST
+update=Sat 24 May 2014 03:54:16 PM CEST
 version=1
 last_client=eeschema
 [cvpcb]
@@ -102,3 +102,4 @@ LibName29=contrib
 LibName30=valves
 LibName31=/home/steven/local/Electronics/bike_computer/hd44780
 LibName32=/home/steven/local/Electronics/bike_computer/m6809p
+LibName33=96lc48

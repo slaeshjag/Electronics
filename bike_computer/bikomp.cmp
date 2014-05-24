@@ -1,4 +1,25 @@
-Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Fri 23 May 2014 10:20:05 PM CEST
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Sat 24 May 2014 03:56:37 PM CEST
+
+BeginCmp
+TimeStamp = /538086A9;
+Reference = C1;
+ValeurCmp = 27_pF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /538086AD;
+Reference = C2;
+ValeurCmp = 27_pF;
+IdModule  = C1;
+EndCmp
+
+BeginCmp
+TimeStamp = /538097BC;
+Reference = C3;
+ValeurCmp = CP1;
+IdModule  = C1V5;
+EndCmp
 
 BeginCmp
 TimeStamp = /537FACD6;
@@ -22,10 +43,24 @@ IdModule  = SIL-8;
 EndCmp
 
 BeginCmp
+TimeStamp = /53809AB4;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = PIN_ARRAY_1;
+EndCmp
+
+BeginCmp
 TimeStamp = /537FACE5;
 Reference = R1;
 ValeurCmp = 10_kΩ;
 IdModule  = R3;
+EndCmp
+
+BeginCmp
+TimeStamp = /5380A0EA;
+Reference = RV1;
+ValeurCmp = POT;
+IdModule  = RV2;
 EndCmp
 
 BeginCmp
@@ -68,6 +103,34 @@ TimeStamp = /537FA235;
 Reference = U6;
 ValeurCmp = 74LS374;
 IdModule  = DIP-20__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /5380A4B5;
+Reference = U7;
+ValeurCmp = 40106;
+IdModule  = DIP-14__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /53809177;
+Reference = U8;
+ValeurCmp = 74LS109;
+IdModule  = DIP-16__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /5380A499;
+Reference = U9;
+ValeurCmp = 96LC48;
+IdModule  = DIP-8__300;
+EndCmp
+
+BeginCmp
+TimeStamp = /5380869F;
+Reference = X1;
+ValeurCmp = CRYSTAL;
+IdModule  = HC-49V;
 EndCmp
 
 EndListe

@@ -1,245 +1,298 @@
-# EESchema Netlist Version 1.1 created  Sat 24 May 2014 03:56:37 PM CEST
+# EESchema Netlist Version 1.1 created  Sun 25 May 2014 11:33:47 PM CEST
 (
- ( /538086A9 C1 C1 27_pF
-  ( 1 GND )
-  ( 2 N-000035 )
+ ( /53812DE5 $noname  C4 C {Lib=C}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /538086AD C1 C2 27_pF
-  ( 1 GND )
-  ( 2 N-000034 )
+ ( /53812DE2 $noname  C5 C {Lib=C}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /538097BC C1V5 C3 CP1
-  ( 1 VCC )
-  ( 2 GND )
+ ( /53812DD9 $noname  C10 C {Lib=C}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /537FACD6 D3 D1 1N4148
-  ( 1 N-000037 )
-  ( 2 N-000038 )
+ ( /53812DD7 $noname  C9 C {Lib=C}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /537FACF5 D3 D2 5.1_V
-  ( 1 N-000036 )
-  ( 2 N-000077 )
+ ( /53812DD4 $noname  C8 C {Lib=C}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /537FA8A4 SIL-8 P1 CONN_8
-  ( 1 /SPI_SSEL1 )
-  ( 2 /SPI_MISO )
-  ( 3 /SPI_MOSI )
-  ( 4 /SPI_CLK )
-  ( 5 GND )
-  ( 6 VCC )
-  ( 7 N-000037 )
-  ( 8 N-000036 )
+ ( /53812DD1 $noname  C7 C {Lib=C}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /53809AB4 PIN_ARRAY_1 P2 CONN_1
-  ( 1 /ROM_ENABLE )
+ ( /53812DCE $noname  C6 C {Lib=C}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /537FACE5 R3 R1 10_kΩ
-  ( 1 N-000077 )
-  ( 2 N-000038 )
+ ( /5380A4B5 $noname  U7 40106 {Lib=40106}
+  (    1 N-000084 )
+  (    2 N-000043 )
+  (    3 /RW )
+  (    4 /RAM_OE )
+  (    5 /SPI_SSEL0 )
+  (    6 /EE_SEL )
+  (    7 GND )
+  (   14 VCC )
  )
- ( /5380A0EA RV2 RV1 POT
-  ( 1 VCC )
-  ( 2 N-000078 )
-  ( 3 GND )
+ ( /5380A499 $noname  U9 96LC48 {Lib=96LC48}
+  (    1 /EE_SEL )
+  (    2 /SPI_CLK )
+  (    3 /SPI_MOSI )
+  (    4 /SPI_MISO )
+  (    5 GND )
+  (    8 VCC )
  )
- ( /537F47FB pin_array_8x2 U1 HD44780
-  ( 1 GND )
-  ( 2 VCC )
-  ( 3 N-000078 )
-  ( 4 /A0 )
-  ( 5 GND )
-  ( 6 /LCD_ENABLE )
-  ( 7 /D0 )
-  ( 8 /D1 )
-  ( 9 /D2 )
-  ( 10 /D3 )
-  ( 11 /D4 )
-  ( 12 /D5 )
-  ( 13 /D6 )
-  ( 14 /D7 )
-  ( 15 VCC )
-  ( 16 GND )
+ ( /5380A0EA $noname  RV1 POT {Lib=POT}
+  (    1 VCC )
+  (    2 N-000060 )
+  (    3 GND )
  )
- ( /537F4B9E DIP-24__600 U2 74LS154
-  ( 1 /RAM_ENABLE )
-  ( 2 /LCD_ENABLE )
-  ( 3 ? )
-  ( 4 /OUT_ENABLE )
-  ( 5 /IN_ENABLE )
-  ( 6 /CLEAR_INT )
-  ( 7 ? )
-  ( 8 ? )
-  ( 9 ? )
-  ( 10 ? )
-  ( 11 ? )
-  ( 12 GND )
-  ( 13 ? )
-  ( 14 ? )
-  ( 15 ? )
-  ( 16 ? )
-  ( 17 /ROM_ENABLE )
-  ( 18 GND )
-  ( 19 GND )
-  ( 20 /A15 )
-  ( 21 /A14 )
-  ( 22 /A13 )
-  ( 23 /A12 )
-  ( 24 VCC )
+ ( /53809AB4 $noname  P2 CONN_1 {Lib=CONN_1}
+  (    1 /ROM_ENABLE )
  )
- ( /537F4975 DIP-24__600 U3 2716
-  ( 1 /A7 )
-  ( 2 /A6 )
-  ( 3 /A5 )
-  ( 4 /A4 )
-  ( 5 /A3 )
-  ( 6 /A2 )
-  ( 7 /A1 )
-  ( 8 /A0 )
-  ( 9 /D0 )
-  ( 10 /D1 )
-  ( 11 /D2 )
-  ( 12 GND )
-  ( 13 /D3 )
-  ( 14 /D4 )
-  ( 15 /D5 )
-  ( 16 /D6 )
-  ( 17 /D7 )
-  ( 18 /RAM_ENABLE )
-  ( 19 /A10 )
-  ( 20 /RAM_OE )
-  ( 21 /RW )
-  ( 22 /A9 )
-  ( 23 /A8 )
-  ( 24 VCC )
+ ( /538097BC $noname  C3 CP1 {Lib=CP1}
+  (    1 VCC )
+  (    2 GND )
  )
- ( /537F486E DIP-40__600 U4 M6809P
-  ( 1 GND )
-  ( 2 VCC )
-  ( 3 /INT )
-  ( 4 VCC )
-  ( 5 ? )
-  ( 6 ? )
-  ( 7 VCC )
-  ( 8 /A0 )
-  ( 9 /A1 )
-  ( 10 /A2 )
-  ( 11 /A3 )
-  ( 12 /A4 )
-  ( 13 /A5 )
-  ( 14 /A6 )
-  ( 15 /A7 )
-  ( 16 /A8 )
-  ( 17 /A9 )
-  ( 18 /A10 )
-  ( 19 ? )
-  ( 20 /A12 )
-  ( 21 /A13 )
-  ( 22 /A14 )
-  ( 23 /A15 )
-  ( 24 /D7 )
-  ( 25 /D6 )
-  ( 26 /D5 )
-  ( 27 /D4 )
-  ( 28 /D3 )
-  ( 29 /D2 )
-  ( 30 /D1 )
-  ( 31 /D0 )
-  ( 32 /RW )
-  ( 33 VCC )
-  ( 34 ? )
-  ( 35 ? )
-  ( 36 VCC )
-  ( 37 VCC )
-  ( 38 N-000034 )
-  ( 39 N-000035 )
-  ( 40 VCC )
+ ( /53809177 $noname  U8 74LS109 {Lib=74LS109}
+  (    1 /CLEAR_INT )
+  (    2 GND )
+  (    3 GND )
+  (    4 N-000043 )
+  (    5 VCC )
+  (    6 /INT )
+  (    7 ? )
+  (    8 GND )
+  (   16 VCC )
  )
- ( /537FA36C DIP-20__300 U5 74LS374
-  ( 1 GND )
-  ( 2 ? )
-  ( 3 ? )
-  ( 4 ? )
-  ( 5 ? )
-  ( 6 /D2 )
-  ( 7 ? )
-  ( 8 /SPI_MISO )
-  ( 9 /D3 )
-  ( 10 GND )
-  ( 11 /IN_ENABLE )
-  ( 12 /D4 )
-  ( 13 ? )
-  ( 14 ? )
-  ( 15 ? )
-  ( 16 ? )
-  ( 17 ? )
-  ( 18 ? )
-  ( 19 ? )
-  ( 20 VCC )
+ ( /538086AD $noname  C2 27_pF {Lib=C}
+  (    1 GND )
+  (    2 N-000038 )
  )
- ( /537FA235 DIP-20__300 U6 74LS374
-  ( 1 /OUT_ENABLE )
-  ( 2 ? )
-  ( 3 ? )
-  ( 4 /D1 )
-  ( 5 /SPI_SSEL0 )
-  ( 6 /SPI_SSEL1 )
-  ( 7 /D2 )
-  ( 8 /D3 )
-  ( 9 /SPI_MOSI )
-  ( 10 GND )
-  ( 11 /OUT_ENABLE )
-  ( 12 /SPI_CLK )
-  ( 13 /D4 )
-  ( 14 ? )
-  ( 15 ? )
-  ( 16 ? )
-  ( 17 ? )
-  ( 18 ? )
-  ( 19 ? )
-  ( 20 VCC )
+ ( /538086A9 $noname  C1 27_pF {Lib=C}
+  (    1 GND )
+  (    2 N-000059 )
  )
- ( /5380A4B5 DIP-14__300 U7 40106
-  ( 1 N-000077 )
-  ( 2 N-000080 )
-  ( 3 /RW )
-  ( 4 /RAM_OE )
-  ( 5 /SPI_SSEL0 )
-  ( 6 /EE_SEL )
-  ( 7 GND )
-  ( 14 VCC )
+ ( /5380869F $noname  X1 CRYSTAL {Lib=CRYSTAL}
+  (    1 N-000038 )
+  (    2 N-000059 )
  )
- ( /53809177 DIP-16__300 U8 74LS109
-  ( 1 /CLEAR_INT )
-  ( 2 GND )
-  ( 3 GND )
-  ( 4 N-000080 )
-  ( 5 VCC )
-  ( 6 /INT )
-  ( 7 ? )
-  ( 8 GND )
-  ( 16 VCC )
+ ( /537FACF5 $noname  D2 5.1_V {Lib=ZENER}
+  (    1 N-000052 )
+  (    2 N-000084 )
  )
- ( /5380A499 DIP-8__300 U9 96LC48
-  ( 1 /EE_SEL )
-  ( 2 /SPI_CLK )
-  ( 3 /SPI_MOSI )
-  ( 4 /SPI_MISO )
-  ( 5 GND )
-  ( 8 VCC )
+ ( /537FACE5 $noname  R1 10_kΩ {Lib=R}
+  (    1 N-000084 )
+  (    2 N-000039 )
  )
- ( /5380869F HC-49V X1 CRYSTAL
-  ( 1 N-000034 )
-  ( 2 N-000035 )
+ ( /537FACD6 $noname  D1 1N4148 {Lib=DIODE}
+  (    1 N-000051 )
+  (    2 N-000039 )
+ )
+ ( /537FA8A4 $noname  P1 CONN_8 {Lib=CONN_8}
+  (    1 /SPI_SSEL1 )
+  (    2 /SPI_MISO )
+  (    3 /SPI_MOSI )
+  (    4 /SPI_CLK )
+  (    5 GND )
+  (    6 VCC )
+  (    7 N-000051 )
+  (    8 N-000052 )
+ )
+ ( /537FA36C $noname  U5 74LS374 {Lib=74LS374}
+  (    1 GND )
+  (    2 ? )
+  (    3 ? )
+  (    4 ? )
+  (    5 ? )
+  (    6 /D2 )
+  (    7 ? )
+  (    8 /SPI_MISO )
+  (    9 /D3 )
+  (   10 GND )
+  (   11 /IN_ENABLE )
+  (   12 /D4 )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 ? )
+  (   19 ? )
+  (   20 VCC )
+ )
+ ( /537FA235 $noname  U6 74LS374 {Lib=74LS374}
+  (    1 /OUT_ENABLE )
+  (    2 ? )
+  (    3 ? )
+  (    4 /D1 )
+  (    5 /SPI_SSEL0 )
+  (    6 /SPI_SSEL1 )
+  (    7 /D2 )
+  (    8 /D3 )
+  (    9 /SPI_MOSI )
+  (   10 GND )
+  (   11 /OUT_ENABLE )
+  (   12 /SPI_CLK )
+  (   13 /D4 )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 ? )
+  (   18 ? )
+  (   19 ? )
+  (   20 VCC )
+ )
+ ( /537F4B9E $noname  U2 74LS154 {Lib=74LS154}
+  (    1 /RAM_ENABLE )
+  (    2 /LCD_ENABLE )
+  (    3 ? )
+  (    4 /OUT_ENABLE )
+  (    5 /IN_ENABLE )
+  (    6 /CLEAR_INT )
+  (    7 ? )
+  (    8 ? )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 GND )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 ? )
+  (   17 /ROM_ENABLE )
+  (   18 GND )
+  (   19 GND )
+  (   20 /A15 )
+  (   21 /A14 )
+  (   22 /A13 )
+  (   23 /A12 )
+  (   24 VCC )
+ )
+ ( /537F4975 $noname  U3 2716 {Lib=2716}
+  (    1 /A7 )
+  (    2 /A6 )
+  (    3 /A5 )
+  (    4 /A4 )
+  (    5 /A3 )
+  (    6 /A2 )
+  (    7 /A1 )
+  (    8 /A0 )
+  (    9 /D0 )
+  (   10 /D1 )
+  (   11 /D2 )
+  (   12 GND )
+  (   13 /D3 )
+  (   14 /D4 )
+  (   15 /D5 )
+  (   16 /D6 )
+  (   17 /D7 )
+  (   18 /RAM_ENABLE )
+  (   19 /A10 )
+  (   20 /RAM_OE )
+  (   21 /RW )
+  (   22 /A9 )
+  (   23 /A8 )
+  (   24 VCC )
+ )
+ ( /537F486E $noname  U4 M6809P {Lib=M6809P}
+  (    1 GND )
+  (    2 VCC )
+  (    3 /INT )
+  (    4 VCC )
+  (    5 ? )
+  (    6 ? )
+  (    7 VCC )
+  (    8 /A0 )
+  (    9 /A1 )
+  (   10 /A2 )
+  (   11 /A3 )
+  (   12 /A4 )
+  (   13 /A5 )
+  (   14 /A6 )
+  (   15 /A7 )
+  (   16 /A8 )
+  (   17 /A9 )
+  (   18 /A10 )
+  (   19 ? )
+  (   20 /A12 )
+  (   21 /A13 )
+  (   22 /A14 )
+  (   23 /A15 )
+  (   24 /D7 )
+  (   25 /D6 )
+  (   26 /D5 )
+  (   27 /D4 )
+  (   28 /D3 )
+  (   29 /D2 )
+  (   30 /D1 )
+  (   31 /D0 )
+  (   32 /RW )
+  (   33 VCC )
+  (   34 ? )
+  (   35 ? )
+  (   36 VCC )
+  (   37 VCC )
+  (   38 N-000038 )
+  (   39 N-000059 )
+  (   40 VCC )
+ )
+ ( /537F47FB $noname  U1 HD44780 {Lib=HD44780}
+  (    1 GND )
+  (    2 VCC )
+  (    3 N-000060 )
+  (    4 /A0 )
+  (    5 GND )
+  (    6 /LCD_ENABLE )
+  (    7 /D0 )
+  (    8 /D1 )
+  (    9 /D2 )
+  (   10 /D3 )
+  (   11 /D4 )
+  (   12 /D5 )
+  (   13 /D6 )
+  (   14 /D7 )
+  (   15 VCC )
+  (   16 GND )
  )
 )
 *
 { Allowed footprints by component:
-$component C1
+$component C4
  SM*
  C?
  C1-1
 $endlist
-$component C2
+$component C5
+ SM*
+ C?
+ C1-1
+$endlist
+$component C10
+ SM*
+ C?
+ C1-1
+$endlist
+$component C9
+ SM*
+ C?
+ C1-1
+$endlist
+$component C8
+ SM*
+ C?
+ C1-1
+$endlist
+$component C7
+ SM*
+ C?
+ C1-1
+$endlist
+$component C6
  SM*
  C?
  C1-1
@@ -248,9 +301,15 @@ $component C3
  CP*
  SM*
 $endlist
-$component D1
- D?
- S*
+$component C2
+ SM*
+ C?
+ C1-1
+$endlist
+$component C1
+ SM*
+ C?
+ C1-1
 $endlist
 $component D2
  D?
@@ -264,5 +323,231 @@ $component R1
  R?-*
  SM1206
 $endlist
+$component D1
+ D?
+ S*
+$endlist
 $endfootprintlist
 }
+{ Pin List by Nets
+Net 16 "/SPI_SSEL0" "SPI_SSEL0"
+ U6 5
+ U7 5
+Net 17 "/A2" "A2"
+ U3 6
+ U4 10
+Net 19 "/A10" "A10"
+ U4 18
+ U3 19
+Net 20 "/A9" "A9"
+ U4 17
+ U3 22
+Net 21 "/A8" "A8"
+ U4 16
+ U3 23
+Net 22 "/A7" "A7"
+ U3 1
+ U4 15
+Net 23 "/A6" "A6"
+ U3 2
+ U4 14
+Net 24 "/A5" "A5"
+ U3 3
+ U4 13
+Net 25 "/A4" "A4"
+ U4 12
+ U3 4
+Net 26 "/A3" "A3"
+ U4 11
+ U3 5
+Net 27 "/D0" "D0"
+ U3 9
+ U4 31
+ U1 7
+Net 28 "/A1" "A1"
+ U4 9
+ U3 7
+Net 29 "/RW" "RW"
+ U4 32
+ U7 3
+ U3 21
+Net 31 "/D7" "D7"
+ U3 17
+ U1 14
+ U4 24
+Net 32 "/D6" "D6"
+ U3 16
+ U1 13
+ U4 25
+Net 33 "/D5" "D5"
+ U1 12
+ U4 26
+ U3 15
+Net 34 "/D4" "D4"
+ U4 27
+ U6 13
+ U1 11
+ U5 12
+ U3 14
+Net 35 "/D3" "D3"
+ U1 10
+ U5 9
+ U3 13
+ U6 8
+ U4 28
+Net 36 "/D2" "D2"
+ U5 6
+ U6 7
+ U4 29
+ U3 11
+ U1 9
+Net 37 "/D1" "D1"
+ U3 10
+ U6 4
+ U4 30
+ U1 8
+Net 38 "" ""
+ U4 38
+ C2 2
+ X1 1
+Net 39 "" ""
+ R1 2
+ D1 2
+Net 40 "/SPI_MISO" "SPI_MISO"
+ U9 4
+ P1 2
+ U5 8
+Net 41 "/SPI_SSEL1" "SPI_SSEL1"
+ P1 1
+ U6 6
+Net 42 "VCC" "VCC"
+ RV1 1
+ C8 1
+ C7 1
+ C6 1
+ U7 14
+ C3 1
+ U8 16
+ U6 20
+ C9 1
+ U9 8
+ P1 6
+ C5 1
+ C4 1
+ U4 33
+ C10 1
+ U4 37
+ U5 20
+ U3 24
+ U4 36
+ U1 15
+ U8 5
+ U1 2
+ U2 24
+ U4 40
+ U4 4
+ U4 7
+ U4 2
+Net 43 "" ""
+ U7 2
+ U8 4
+Net 45 "GND" "GND"
+ U2 19
+ U6 10
+ P1 5
+ C10 2
+ U1 1
+ U1 5
+ C6 2
+ C7 2
+ C8 2
+ C9 2
+ U1 16
+ RV1 3
+ U4 1
+ U7 7
+ U9 5
+ C3 2
+ U2 18
+ C2 1
+ U5 10
+ U3 12
+ U5 1
+ U8 3
+ U2 12
+ U8 8
+ U8 2
+ C1 1
+ C5 2
+ C4 2
+Net 51 "" ""
+ P1 7
+ D1 1
+Net 52 "" ""
+ P1 8
+ D2 1
+Net 53 "/SPI_MOSI" "SPI_MOSI"
+ U9 3
+ P1 3
+ U6 9
+Net 54 "/SPI_CLK" "SPI_CLK"
+ U9 2
+ U6 12
+ P1 4
+Net 55 "/INT" "INT"
+ U4 3
+ U8 6
+Net 58 "/RAM_ENABLE" "RAM_ENABLE"
+ U3 18
+ U2 1
+Net 59 "" ""
+ C1 2
+ X1 2
+ U4 39
+Net 60 "" ""
+ U1 3
+ RV1 2
+Net 61 "/A0" "A0"
+ U3 8
+ U1 4
+ U4 8
+Net 62 "/LCD_ENABLE" "LCD_ENABLE"
+ U1 6
+ U2 2
+Net 67 "/ROM_ENABLE" "ROM_ENABLE"
+ U2 17
+ P2 1
+Net 68 "/A12" "A12"
+ U2 23
+ U4 20
+Net 70 "/OUT_ENABLE" "OUT_ENABLE"
+ U2 4
+ U6 11
+ U6 1
+Net 71 "/IN_ENABLE" "IN_ENABLE"
+ U2 5
+ U5 11
+Net 76 "/A15" "A15"
+ U4 23
+ U2 20
+Net 78 "/A14" "A14"
+ U4 22
+ U2 21
+Net 79 "/A13" "A13"
+ U4 21
+ U2 22
+Net 81 "/RAM_OE" "RAM_OE"
+ U3 20
+ U7 4
+Net 82 "/CLEAR_INT" "CLEAR_INT"
+ U8 1
+ U2 6
+Net 83 "/EE_SEL" "EE_SEL"
+ U9 1
+ U7 6
+Net 84 "" ""
+ R1 1
+ D2 2
+ U7 1
+}
+#End

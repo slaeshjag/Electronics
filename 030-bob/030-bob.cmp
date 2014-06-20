@@ -1,0 +1,10 @@
+Cmp-Mod V01 Created by CvPcb (2012-apr-16-27)-stable date = Fri 20 Jun 2014 02:11:06 PM CEST
+
+BeginCmp
+TimeStamp = /53A42465;
+Reference = U1;
+ValeurCmp = MC68030;
+IdModule  = PQFP132M;
+EndCmp
+
+EndListe
